@@ -1,0 +1,29 @@
+body {
+    background: url(../images/juziusbackground.png);
+    background-size: cover;
+}
+h2 {
+    color: rgb(11, 7, 153);
+    text-align: center;
+}
+td { width:50px;
+}
+div {
+    background-color: rgb(239, 209, 134);
+    text-align: center;
+    border: 2px solid red ;
+    border-radius: 12px;
+    padding-inline-end: 30px;
+    
+}
+form {
+    text-align: center;
+    background-color: rgb(105, 166, 241);
+     margin: 2px 6px;
+    padding: 5px 15px;
+     
+}
+p {
+    text-align: center;
+    
+}

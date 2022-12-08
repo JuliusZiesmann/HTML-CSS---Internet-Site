@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Rechner IT, Byte">
+    <meta name="Author" content="Julius Ziesmann">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
+        <link rel="apple-touch-icon" sizes="128x128" href="favicon.ico"> 
+        <link rel="shortcut icon" sizes="128x128" href="favicon.ico">
+        <link rel="stylesheet" href="Aufgaben.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        Aufgabe 3
+    </h2><br>
+    <div class="layer">
+        Ihre Website ist zu langsam. Sie entschließen sich eine Software anzuschaffen,<br> 
+        die im Arbeitsspeicher einen Cache anlegt, um von dort aus die Bilder<br>
+        bereit zu stellen anstelle von Festplatte. Das Websystem enthält<br> 20.000 Bilder und Dateien mit 25KiBiByte.<br>
+        <mark>Wie viel Arbeitsspeicher (MeBiByte) wird für den Cache benötigt?</mark><br>
+    </div>
+    <form oninput="result.value=(MeBiByte.value*Kap.value/1024)">
+        <p>Menge der Bilder und Dateien: 
+        <input type="number" name="MeBiByte" autofocus></p>
+        <p>Kapazität (KiBiByte):
+            <input type="number" name="Kap" autofocus></p>
+        <p>Arbetsspeicher(MeBiByte): <output name="result">0</output></p>
+    </form>
+    <p>
+        <video src="http://training.lernprojekte-matthias-reimann.de/~rma/videos/IMG_9811.mov " controls width="600px">
+    
+    </p><br><br>
+</body><br><br>
+<form>
+    <input type="button" value="Zurück zu Aufgaben" onclick="history.back()">
+   </form>
+</html>

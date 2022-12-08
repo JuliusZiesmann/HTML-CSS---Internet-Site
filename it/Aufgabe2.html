@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Rechner IT, Byte">
+    <meta name="Author" content="Julius Ziesmann">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
+        <link rel="apple-touch-icon" sizes="128x128" href="favicon.ico"> 
+        <link rel="shortcut icon" sizes="128x128" href="favicon.ico">
+        <link rel="stylesheet" href="Aufgaben.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <h2>
+        Aufgabe 2
+    </h2><br>
+    <div class="layer">
+        Sie haben eine Festplatte mit der Kapazität von 1 TB erworben und möchten<br> gerne ihre Filme 
+        dort abspeichern. Nun hat ein 90 Minuten Film laut Windows <br> 1 GiBiByte.<br>
+        <mark>Wie viele Minuten Film passen auf die Festplatte?</mark><br>
+    </div><br><br>
+    <form oninput="result.value=(Gb.value*1000000000/(GiBiByte.value*1024*1024*1024)*Min.value)">
+        
+        <p>Festplattekapazität (Gb):   
+        <input type="number" name="Gb" autofocus></p>
+        <p>Filmkapazität  (Minuten):  
+            <input type="number" name="Min" autofocus></p>
+        <p>Filmkapazität (GiBiByte):  
+            <input type="number" name="GiBiByte" autofocus>
+        </p>
+        <p>Film Minuten: <output name="result">0</output></p>
+        
+        
+
+    </form>
+    
+            
+            
+    
+   
+    <p>
+        <video src="http://training.lernprojekte-matthias-reimann.de/~rma/videos/IMG_9810.mov " controls width="600px">
+    
+    </p><br><br>
+</body><br><br>
+<form>
+    <input type="button"  value="Zurück zu Aufgaben" onclick="history.back()">
+</form>
+
+</html>

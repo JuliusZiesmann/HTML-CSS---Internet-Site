@@ -1,0 +1,130 @@
+body {
+    background-image: url('../images/juziusbackground.png');
+    background-size: cover;
+    font-family: cursive;
+    background-repeat: repeat-y;
+    font-size: medium;
+    text-align: center;
+}
+.scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+    
+   }
+   .scale img:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+   }
+   
+            
+            
+h2 {
+    color: rgb(21, 80, 243);
+    text-align: center;
+}
+            
+            
+h3 {
+    color:rgb(6, 2, 26);
+    text-align: center;
+}
+            
+figure {
+    text-align: center;  
+}
+dl {
+    text-align: center;
+}
+            
+p {
+    text-align: center;
+    color: azure;
+}
+a:focus {background-color: rgb(255, 0, 0); color: black;}
+a:hover {background-color: rgb(81, 132, 202); color: white;}
+a:active {background-color: yellow; color: blueviolet;}
+
+
+.menu {
+    overflow: hidden;
+    background-color: rgb(32, 66, 180);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+    
+    float: right;
+    font-size: 16px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    text-align: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    text-align: left;
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    
+}
+
+.menu a:hover, .dropdown:hover .dropbtn {
+    
+    background-color: rgb(4, 38, 139);
+    transform: scale(1.1);
+    transition: 1s;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color: rgb(32, 66, 180);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(245, 248, 248, 0.957);
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(32, 66, 180);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(245, 248, 248, 0.957);
+    z-index: 1;
+    
+    
+}
+
+.dropdown-content a {
+    text-align: center;
+    float: inline-start;
+    color: rgb(1, 58, 134);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(9, 6, 84);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+   
+}
